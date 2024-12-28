@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "promptool"
+version = "0.1.0"
+description = "App for Prompt Automation and Testing"
+authors = ["kyeonghun-kim <kyeonghun.dev@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+langchain = "^0.3.13"
+langchain-openai = "^0.2.14"
+python-dotenv = "^1.0.1"
+streamlit = "^1.41.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
